@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Division Library</title>
+    <meta name="description" content="Informing the affected communities about with key information about the redevelopment of the 44 towers">
+    <meta name="author" content="guledarchive">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: 'Minimal Helvetica', sans-serif;
+            color: rgb(50, 50, 50);
+            margin: 0;
+            padding: 20px; /* Add padding for clearance */
+        }
+        h1 {
+            font-size: 20px; /* Adjust as needed */
+            color: orangered;
+            margin: 0;
+        }
+        h4 {
+            font-size: 14px; /* Adjust as needed */
+            color: rgb(120,120,120);
+            margin: 0;
+        }
+        small {
+            font-size: 12px; /* Adjust as needed */
+            color: rgb(25, 25, 25);
+        }
+        li {
+            font-size: 10px; /* Adjust as needed */
+            color: rgb(120,120,120);
+            list-style-type: none; /* Removes the bullet point */
+        }
+        a {
+            font-size: 12px; /* Adjust as needed */
+            color: rgb(0, 100, 255); /* Adjusted to the provided color */
+            margin: 0;
+            text-decoration: none;
+        }
+        footer {
+            position: absolute; /* Position footer absolutely */
+            bottom: 50; /* Align footer to bottom of viewport */
+            left: 20px; /* Shift footer 20px to the right */
+            width: calc(100% - 40px); /* Set footer width to full viewport width with 20px padding on each side */
+            background-color: rgba(255, 255, 255, 0.8); /* Add background color to footer */
+            padding: 10px 0; /* Add padding to footer */
+        }
+        footer p {
+            font-size: 8px; /* Adjust as needed */
+            color: rgb(120,120,120);
+            margin: 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        td {
+            padding: 5px;
+            vertical-align: top;
+        }
+        /* Align suburb names to top left */
+        .suburb {
+            vertical-align: top;
+            text-align: left;
+        }
+    
+
+/* CSS for the popup */
+#popup-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(240, 240, 240); /* Adjust opacity for the ghosted effect */
+    z-index: 9998; /* Ensure the background appears below the popup */
+}
+
+#popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    padding: 40px; /* Increase padding for clearance */
+    border-radius: 10px;
+    z-index: 9999; /* Ensure the popup appears on top of the background */
+}
+
+#popup-content {
+    font-size: 18px; /* Increase text size */
+    color: rgb(120, 120, 120); /* Adjusted to the provided color */
+    font-family: monospace;
+}
+    
+    </style>
+</head>
+<body body style="font-family: monospace;" >
+
+    <a style="color: rgb(200, 200, 200); margin: 0px; position: absolute; left: 20px;" 
+    href="home.html" style="color: rgb(200, 200, 200);">HOME</a>  
+
+   <a
+    style="color: rgb(122, 122, 122); margin: 0px; position: absolute; right: 20px;"
+    href="https://www.guledarchive.com/work" target="_blank" title="for more related work">
+    guledarchive
+</a>
+
+   <br>
+
+
+<a style="color: orangered;  margin: 30px; position: absolute; left: -10px;"
+   href="index.html" style="color: orangered;">44 TOWERS </a>
+
+   <a style="color: orangered;  margin: 60px; position: absolute; left: -40px;"
+   href="archive.html" style="color: orangered;">ARCHIVE</a>   
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<p style="text-align: left; margin-left: 0px;">Providing all the details about high-rise towers across Victoria's divisions, this page focuses on offering key information on their redevelopment to help people possibly affected better plan and stay informed, while also serving as an archive for the buildings and communities of the 44 towers.</p>
+
+
+<!-- Popup Background -->
+<div id="popup-background"></div>
+
+<!-- Popup Content -->
+<div id="popup">
+    <div id="popup-content">
+        We respects and acknowledges the True Owners and First Custodians of the land where we live, work, and traverse.
+        We honour their Ancestors and Elders, past, present, and emerging. Additionally, we celebrate the stories,
+        culture, and traditions of from all communities who share this land, recognizing their invaluable contributions
+        to our collective heritage.
+    </div>
+</div>
+
+<!-- JavaScript for the pop-up -->
+<script>
+    window.onload = function() {
+        var popupBackground = document.getElementById("popup-background");
+        var popup = document.getElementById("popup");
+        setTimeout(function() {
+            popupBackground.style.display = "none";
+            popup.style.display = "none";
+        }, 2000); // Hide the popup and background after 2 seconds
+    };
+</script>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<footer>
+    <p>All photographs displayed on this website are the sole property of Guled Elyas unless specifically noted otherwise.</p>
+    <br>
+    <p>&copy; 2024 guledarchive</p>
+</footer>
+</body>
+</html>
